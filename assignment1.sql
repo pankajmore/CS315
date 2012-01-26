@@ -1,4 +1,4 @@
-elect * from departments inner join dept_manager on departments.dept_no = dept_manager.dept_no;
+select * from departments inner join dept_manager on departments.dept_no = dept_manager.dept_no;
 
 select * from departments left outer join dept_manager on departments.dept_no = dept_manager.dept_no;
 
