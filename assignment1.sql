@@ -16,5 +16,10 @@ select SUM(salary) from salaries;
 
 select dept_no, count(emp_no) from dept_manager group by dept_no;
 
+insert into departments values ('d011', 'Legal');
+
+update departments set dept_no = "d033" where dept_name = "Legal";
+
+delete from departments where dept_no = "d033";
 
 
